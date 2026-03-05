@@ -1,0 +1,170 @@
+.expense-form {
+  height: 250px;
+  width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+  margin-left:450px;
+}
+
+.expense-form h2{
+  color:black;
+  margin-left: 120px;
+  font-weight:500;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.inputs {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 15px;
+  margin-left: 33px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.inputs:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+.submit-btn {
+  width: 40%;
+  padding: 8px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left:120px;
+  margin-bottom: 20px;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c3e50;
+  color: white;
+  padding: 12px 20px;
+  width: 1230px;
+}
+
+.logo {
+  margin: 0;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.logout-btn {
+  padding: 6px 12px;
+  border: none;
+  background-color: #e74c3c;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.logout-btn:hover {
+  background-color: #c0392b;
+}
+
+/* Filter  */
+.filter {
+  width: 405px;
+  height: 250px;
+
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 458px;
+}
+
+.filter h2{
+  color:black;
+  margin-left: 110px;
+  font-weight:500;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.filter input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  width: 80%;
+  margin-left: 35px;
+  margin-top: 5px;
+}
+
+.filter input:focus {
+  outline: none;
+  border-color: #2196f3;
+}
+
+.filter button {
+  padding: 8px;
+  border: none;
+  background-color: #2196f3;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  width:40%;
+  margin-left: 120px;
+  margin-top: 25px;
+}
+
+.filter button:hover {
+  background-color: #1976d2;
+}
+
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #f4f4f4;
+  padding: 15px 20px;
+  margin: 10px 0;
+
+  border-radius: 8px;
+  border-left: 5px solid #3498db;
+}
+
+.expense-item h4 {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.expense-item p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.expense-item:hover {
+  background-color: #eaeaea;
+}
+

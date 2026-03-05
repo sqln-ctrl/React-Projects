@@ -1,8 +1,11 @@
-function App () {
+import ExpenseProvider from "./context/ExpenseContext";
+import Dashboard from "./pages/Dashboard";
+
+function App() {
   return (
-      <div>
-        <h1>Saqlain Shah</h1>
-      </div>
+      <ExpenseProvider>
+           <Dashboard/>
+      </ExpenseProvider>
   );
 }
 
