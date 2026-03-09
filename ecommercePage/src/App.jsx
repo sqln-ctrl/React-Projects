@@ -1,14 +1,21 @@
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Navbar from './components/Navbar';
+import './App.css';
+import './index.css';
 function App() {
-  return (
-    <div>
-      <h1>Font Awesome in React</h1>
-
-      <i className="fa-solid fa-user"></i>
-      <i className="fa-solid fa-house"></i>
-      <i className="fa-solid fa-heart"></i>
-
-    </div>
-  );
+    return(
+         <Navbar />
+    )
+//    <Router>
+//        <Routes>
+//            <Route>Home</Route>
+//            <Route>Product Detail</Route>
+//            <Route>Cart Page</Route>
+//            <Route>Checkout</Route>
+//            <Route>Payment</Route>
+//            <Route>Order Success</Route>
+//        </Routes>
+//    </Router>
 }
 
 export default App;
