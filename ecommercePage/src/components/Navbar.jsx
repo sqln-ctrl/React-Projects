@@ -1,6 +1,5 @@
 import {Link} from 'react-router-dom';
 
-
 function Navbar () {
      return (
         <nav className="flex justify-between items-center sticky top-0 p-6
@@ -18,8 +17,8 @@ function Navbar () {
             <input className="w-96 border border-solid p-1.5 rounded-lg bg-white" type="text" placeholder="Search products..." />
             
             <div className="flex items-center gap-3">
-                  <button className="border-2 border-solid border-black bg-white hover:bg-purple-950 hover:text-white p-1 rounded-lg w-24">Login</button>
-                  <button className="border-2 border-solid border-black bg-white hover:bg-purple-950 hover:text-white p-1 rounded-lg w-24">Signup</button>   
+                  <Link to="/login"><button className="border-2 border-solid border-black bg-white hover:bg-purple-950 hover:text-white p-1 rounded-lg w-24">Login</button></Link>
+                  <Link to="/signup"><button className="border-2 border-solid border-black bg-white hover:bg-purple-950 hover:text-white p-1 rounded-lg w-24">Signup</button>   </Link>
             </div>
         </nav>
      )
